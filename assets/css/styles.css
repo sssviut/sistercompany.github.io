@@ -267,7 +267,7 @@ p{
     justify-content: space-between;
     align-self: stretch;
 
-    background: url(../images/hands.png) center no-repeat;
+    background: url("../images/hands.png") center no-repeat;
     background-size: 100%;
 }
 #about-us h2{
@@ -347,15 +347,15 @@ p{
 
 /* Add specific background images for each card */
 #made-in-korea::before {
-    background-image: url(../images/made-in-korea.jpg);
+    background-image: url("../images/made-in-korea.jpg");
 }
 
 #disposability::before {
-    background-image: url(../images/disposability.jpg);
+    background-image: url("../images/disposability.jpg");
 }
 
 #donation::before {
-    background-image: url(../images/donation.jpg);
+    background-image: url("../images/donation.jpg");
 }
 
 /* Add a black gradient overlay with blending mode */
